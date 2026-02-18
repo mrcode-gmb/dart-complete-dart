@@ -67,11 +67,7 @@ void main() {
   // Returning a function
 
   Function applyMultiplier(num multiplier){
-    return (num value){
-      return value * multiplier;
-    };
+    return (num val)
   }
-
-  print(applyMultiplier(3)(4));
 
 }

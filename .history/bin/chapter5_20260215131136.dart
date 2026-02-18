@@ -32,46 +32,4 @@ void main() {
   print(withinTolerance(value: 10, min: 0, max: 10));
   print(withinTolerance(value: 20, min: 0));
   print(withinTolerance(value: 40));
-
-
-  // Anonymous functions
-  
-  String greeting = "Hello";
-  bool isHungry = true;
-  Function multiply = (int a, int b){
-    return a * b;
-  };
-
-  print(multiply(2, 34));
-
-  Function myFunction = (int a, int b){
-    return a * b;
-  };
-
-  anonymousFunction(int a, int b) => a * b;
-
-  void namedFunction(Function anonymousFunction){
-    print(anonymousFunction(2, 3));
-  }
-  namedFunction(anonymousFunction);
-
-
-  Function nameFunction(){
-    return (){
-      print("Hello");
-    };
-  }
-
-  print(nameFunction()());
-
-  // Returning a function
-
-  Function applyMultiplier(num multiplier){
-    return (num value){
-      return value * multiplier;
-    };
-  }
-
-  print(applyMultiplier(3)(4));
-
 }

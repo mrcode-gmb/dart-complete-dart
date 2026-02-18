@@ -62,16 +62,6 @@ void main() {
     };
   }
 
-  print(nameFunction()());
-
-  // Returning a function
-
-  Function applyMultiplier(num multiplier){
-    return (num value){
-      return value * multiplier;
-    };
-  }
-
-  print(applyMultiplier(3)(4));
+  print()
 
 }

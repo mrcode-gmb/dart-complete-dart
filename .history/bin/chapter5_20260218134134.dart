@@ -69,9 +69,7 @@ void main() {
   Function applyMultiplier(num multiplier){
     return (num value){
       return value * multiplier;
-    };
+    }
   }
-
-  print(applyMultiplier(3)(4));
 
 }
