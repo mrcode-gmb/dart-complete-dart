@@ -12,8 +12,10 @@ void main(){
   };
   print(wonderful());
 
-  print("\n");
+  print("\n")
 
   const people = ["Christian", "Tobias", "Sara"];
-  people.forEach( (person) => print(youAreWonderful(name: person)));
+  people.forEach( (person) {
+    print(youAreWonderful(name: person));
+  });
 }

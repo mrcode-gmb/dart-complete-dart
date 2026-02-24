@@ -86,41 +86,12 @@ void main() {
     print(tripled);
   });
 
-  Function countingFunction(){
-    int counter = 0;
-    final incrementCounter = (){
-      counter += 1;
-      return counter;
-    };
-    return incrementCounter;
-  }
-
-  print("\n");
-  
-  final counter1 = countingFunction();
-  final counter2 = countingFunction();
-  print(counter1());
-  print(counter1());
-  print(counter1());
-  print("\n");
-  print(counter2());
-  print(counter2());
-  print(counter2());
-
-  print("\n");
-  // Arrow functions
-
-  int add(int a, int b) => a + b;
-  print(add(2, 3));
-
-
-  // Refactoring example 2
-
-  Function applyMultipliers(num multiplier){
-    return (num value) => value * multiplier;
+  int counter = 0;
+  final incrementCounter = (){
+    counter += 1;
   };
+  print();
+  print(incrementCounter());
+  print(incrementCounter());
 
-    final doubleValue = applyMultipliers(2);
-    print(doubleValue(5));
-    print(doubleValue(10));
 }

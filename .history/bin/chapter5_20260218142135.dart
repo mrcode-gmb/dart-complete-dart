@@ -107,20 +107,8 @@ void main() {
   print(counter2());
   print(counter2());
 
-  print("\n");
   // Arrow functions
 
-  int add(int a, int b) => a + b;
-  print(add(2, 3));
-
-
-  // Refactoring example 2
-
-  Function applyMultipliers(num multiplier){
-    return (num value) => value * multiplier;
-  };
-
-    final doubleValue = applyMultipliers(2);
-    print(doubleValue(5));
-    print(doubleValue(10));
+  int add(int, int b) => a + b;
+  print
 }

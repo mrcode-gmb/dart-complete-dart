@@ -3,17 +3,10 @@ String youAreWonderful({required String name, int numberOfLike = 10}){
   return "You’re wonderful, $name! and number of like is: $numberOfLike";
 }
 
-
 void main(){
   print(youAreWonderful(name: "Abubakar", numberOfLike: 20));
-
   Function wonderful = (){
-    return youAreWonderful(name: "Abubakar", numberOfLike: 20);
-  };
-  print(wonderful());
-
-  print("\n");
-
-  const people = ["Christian", "Tobias", "Sara"];
-  people.forEach( (person) => print(youAreWonderful(name: person)));
+  return youAreWonderful(name: "Abubakar", numberOfLike: 20);
+}
+pr
 }

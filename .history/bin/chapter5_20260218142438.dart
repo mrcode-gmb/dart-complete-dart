@@ -116,11 +116,5 @@ void main() {
 
   // Refactoring example 2
 
-  Function applyMultipliers(num multiplier){
-    return (num value) => value * multiplier;
-  };
-
-    final doubleValue = applyMultipliers(2);
-    print(doubleValue(5));
-    print(doubleValue(10));
+  Function applyMultipliers()
 }
