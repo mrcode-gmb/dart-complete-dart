@@ -1,7 +1,6 @@
 // bin/chapter6.dart
 class User{
   User();
-  
   int id = 0;
   String name = "";
 

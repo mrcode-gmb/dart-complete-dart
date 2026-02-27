@@ -1,14 +1,7 @@
 // bin/chapter6.dart
 class User{
-  User();
-  
   int id = 0;
   String name = "";
-
-  String toJson(){
-    return '{"id": "$id", "name": "$name"}';
-  }
-
   @override
   String toString(){
     return "User(id: $id, name: $name)";
@@ -17,8 +10,8 @@ class User{
 void main(){
 
   
-  final user = User()
-  ..name = "Alice"
-  ..id = 2;
-  print(user.toJson());
+  final user = User();
+  user.id = 2;
+  user.name = "Alice";
+  print(user);
 }

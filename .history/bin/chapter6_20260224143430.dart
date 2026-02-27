@@ -1,7 +1,5 @@
 // bin/chapter6.dart
 class User{
-  User();
-  
   int id = 0;
   String name = "";
 
@@ -17,7 +15,7 @@ class User{
 void main(){
 
   
-  final user = User()
+  final user = User();
   ..name = "Alice"
   ..id = 2;
   print(user.toJson());
