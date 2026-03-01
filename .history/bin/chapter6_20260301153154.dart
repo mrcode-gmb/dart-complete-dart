@@ -9,10 +9,10 @@ class User{
   // }
   
   // short term constructor method 
-  User({int id = 0, String name = 'anonymous'}) : _id = id, _name = name;
+  User({this._id = 0, this._name = 'anonymous'});
 
   // Forwarding constructors
-  User.anonymous() : _id = 0, _name = 'anonymous';
+  User.anonymous() : this();
 
   // Optional and named parameters
   

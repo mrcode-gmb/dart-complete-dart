@@ -9,7 +9,7 @@ class User{
   // }
   
   // short term constructor method 
-  User({int id = 0, String name = 'anonymous'}) : _id = id, _name = name;
+  User({int id = 0, String name = 'anonymous'});
 
   // Forwarding constructors
   User.anonymous() : _id = 0, _name = 'anonymous';
