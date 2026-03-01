@@ -2,7 +2,7 @@
 class User{
 
   int id;
-  String name;
+  String name = '';
   // this where define constructor in class in dart
   // User(int id, String ){
   //   this.id = id;
@@ -11,9 +11,10 @@ class User{
   
   // short term constructor method 
   User(this.id, this.name);
-  
-  // Forwarding constructors
-  User.anonymous() : this(1, "Anonymous");
+  User.anonymous(){
+    id = 1;
+    name = "Anonymous";
+  }
 
 
   String toJson(){

@@ -11,8 +11,6 @@ class User{
   
   // short term constructor method 
   User(this.id, this.name);
-  
-  // Forwarding constructors
   User.anonymous() : this(1, "Anonymous");
 
 

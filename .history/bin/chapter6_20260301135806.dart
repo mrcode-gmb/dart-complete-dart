@@ -10,10 +10,11 @@ class User{
   // }
   
   // short term constructor method 
-  User(this.id, this.name);
-  
-  // Forwarding constructors
-  User.anonymous() : this(1, "Anonymous");
+  // User(this.id, this.name);
+  User.anonymous(){
+    id = 1;
+    name = "Anonymous";
+  }
 
 
   String toJson(){

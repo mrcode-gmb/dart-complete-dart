@@ -11,9 +11,7 @@ class User{
   
   // short term constructor method 
   User(this.id, this.name);
-  
-  // Forwarding constructors
-  User.anonymous() : this(1, "Anonymous");
+  User.anonymous()
 
 
   String toJson(){
@@ -30,6 +28,4 @@ void main(){
   
   final user = User(2, "Alice");
   print(user.toJson());
-  final anonymousUser = User.anonymous();
-  print(anonymousUser);
 }
