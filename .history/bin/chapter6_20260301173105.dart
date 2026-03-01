@@ -39,20 +39,16 @@ import "user.dart";
 
 // }
 
-
-
 // Checking for errors
-// Constant constructors
-
 void main(){
 
   
-  final user = User(id: 2, name: "Alice");
+  final user = User(id: -2, name: "Alice");
   print(user.toJson());
   // final anonymousUser = User.anonymous();
   // print(anonymousUser);
 
-  final vicki = User(id: 1, name: 'Vicki');
-  print(vicki);
+  final vicki = User(id: -1, name: 'Vicki');
+  print(vi)
   // vicki._name = 'Nefarious Hacker';
 }

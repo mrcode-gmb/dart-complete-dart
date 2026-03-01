@@ -39,11 +39,7 @@ import "user.dart";
 
 // }
 
-
-
 // Checking for errors
-// Constant constructors
-
 void main(){
 
   
