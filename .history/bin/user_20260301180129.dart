@@ -9,7 +9,7 @@ class User {
   // short term constructor method
   const User({int id = 0, String name = 'anonymous'})
     : assert(id >= 0),
-      assert(name.isNotEmpty),
+      // assert(name.isNotEmpty),
       _id = id,
       _name = name {
     print("User created with id: $_id and name: $_name");

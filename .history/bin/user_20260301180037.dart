@@ -15,7 +15,7 @@ class User {
     print("User created with id: $_id and name: $_name");
   }
   // Forwarding constructors
-  const User.anonymous() : _id = 0, _name = 'anonymous';
+  User.anonymous() : _id = 0, _name = 'anonymous';
 
   // Optional and named parameters
   // Making properties immutable
