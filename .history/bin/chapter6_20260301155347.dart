@@ -45,6 +45,6 @@ void main(){
   final anonymousUser = User.anonymous();
   print(anonymousUser);
 
-  final vicki = User(id: 24, name: 'Vicki');
+  ﬁnal vicki = User(id: 24, name: 'Vicki');
   vicki._name = 'Nefarious Hacker';
 }
