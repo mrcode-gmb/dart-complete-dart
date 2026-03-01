@@ -1,8 +1,8 @@
 // bin/chapter6.dart
 class User{
 
-  int id;
-  String name;
+  int id = 0;
+  String name = "";
   // this where define constructor in class in dart
   // User(int id, String ){
   //   this.id = id;
