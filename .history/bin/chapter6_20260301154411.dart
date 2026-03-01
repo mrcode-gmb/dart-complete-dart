@@ -34,8 +34,6 @@ class User{
   }
 
   // Why aren’t the private properties private?
-
-  
 }
 void main(){
 

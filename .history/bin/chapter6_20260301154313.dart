@@ -9,9 +9,7 @@ class User{
   // }
   
   // short term constructor method 
-  User({int id = 0, String name = 'anonymous'}) : _id = id, _name = name{
-      print("User created with id: $_id and name: $_name");
-  }
+  User({int id = 0, String name = 'anonymous'}) : _id = id, _name = name{}
 
   // Forwarding constructors
   User.anonymous() : _id = 0, _name = 'anonymous';
@@ -32,10 +30,6 @@ class User{
   String toString(){
     return "User(id: $_id, name: $_name)";
   }
-
-  // Why aren’t the private properties private?
-
-  
 }
 void main(){
 

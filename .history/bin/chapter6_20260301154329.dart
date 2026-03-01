@@ -32,10 +32,6 @@ class User{
   String toString(){
     return "User(id: $_id, name: $_name)";
   }
-
-  // Why aren’t the private properties private?
-
-  
 }
 void main(){
 
