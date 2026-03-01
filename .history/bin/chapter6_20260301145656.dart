@@ -16,8 +16,8 @@ class User{
 
   // Optional and named parameters
   
-  int id;
-  String name;
+  int _id;
+  String _name;
 
   // Private variables
 

@@ -19,9 +19,7 @@ class User{
   int id;
   String name;
 
-  // Private variables
-
-
+  
   String toJson(){
     return '{"id": "$id", "name": "$name"}';
   }

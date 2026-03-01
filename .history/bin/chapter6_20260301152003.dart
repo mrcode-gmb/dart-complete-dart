@@ -9,26 +9,26 @@ class User{
   // }
   
   // short term constructor method 
-  User({this.id = 0, this.name = 'anonymous'});
+  User({this._id = 0, this._name = 'anonymous'});
 
   // Forwarding constructors
   User.anonymous() : this();
 
   // Optional and named parameters
   
-  int id;
-  String name;
+  int _id =0;
+  String _name = "";
 
   // Private variables
 
 
   String toJson(){
-    return '{"id": "$id", "name": "$name"}';
+    return '{"id": "$_id", "name": "$_name"}';
   }
 
   @override
   String toString(){
-    return "User(id: $id, name: $name)";
+    return "User(id: $_id, name: $_name)";
   }
 }
 void main(){

@@ -1,7 +1,8 @@
 // bin/chapter6.dart
 class User{
 
-  
+  int id;
+  String name;
   // this where define constructor in class in dart
   // User(int id, String ){
   //   this.id = id;
@@ -9,18 +10,13 @@ class User{
   // }
   
   // short term constructor method 
-  User({this.id = 0, this.name = 'anonymous'});
+  User({this.id, this.name});
 
   // Forwarding constructors
-  User.anonymous() : this();
+  User.anonymous() : this(1, "Anonymous");
 
   // Optional and named parameters
   
-  int id;
-  String name;
-
-  // Private variables
-
 
   String toJson(){
     return '{"id": "$id", "name": "$name"}';

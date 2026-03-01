@@ -19,7 +19,7 @@ class User{
   int id;
   String name;
 
-  // Private variables
+  Private variables
 
 
   String toJson(){

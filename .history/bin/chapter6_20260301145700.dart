@@ -16,14 +16,14 @@ class User{
 
   // Optional and named parameters
   
-  int id;
-  String name;
+  int _id;
+  String _name;
 
   // Private variables
 
 
   String toJson(){
-    return '{"id": "$id", "name": "$name"}';
+    return '{"id": "$_id", "name": "$name"}';
   }
 
   @override

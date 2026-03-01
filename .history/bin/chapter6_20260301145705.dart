@@ -16,19 +16,19 @@ class User{
 
   // Optional and named parameters
   
-  int id;
-  String name;
+  int _id;
+  String _name;
 
   // Private variables
 
 
   String toJson(){
-    return '{"id": "$id", "name": "$name"}';
+    return '{"id": "$_id", "name": "$_name"}';
   }
 
   @override
   String toString(){
-    return "User(id: $id, name: $name)";
+    return "User(id: $_id, name: $name)";
   }
 }
 void main(){
