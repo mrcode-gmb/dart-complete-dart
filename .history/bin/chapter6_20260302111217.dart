@@ -52,7 +52,7 @@ void main(){
   final anonymousUser = User.anonymous();
   print(anonymousUser);
 
-  final vicki = User(id: 1, name: 'Vicki');
+  consfinalt vicki = User(id: 1, name: 'Vicki');
   print(vicki);
   // vicki._name = 'Nefarious Hacker';
 }
