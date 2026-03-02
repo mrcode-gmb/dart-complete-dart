@@ -62,10 +62,7 @@ class User {
 // }
 
 class Password{
-  final String value;
+  const String value = "";
   const Password(this.value);
-
-  String getPassword(){
-    return this.value;
-  }
+  
 }

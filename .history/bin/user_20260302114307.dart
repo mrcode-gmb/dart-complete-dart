@@ -60,12 +60,3 @@ class User {
 //   final vicki = User(id: 24, name: 'Vicki');
 //   vicki._name = 'Nefarious Hacker';
 // }
-
-class Password{
-  final String value;
-  const Password(this.value);
-
-  String getPassword(){
-    return this.value;
-  }
-}

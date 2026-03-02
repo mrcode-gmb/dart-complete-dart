@@ -62,6 +62,5 @@ void main(){
 
   // setting password 
   const password = Password("my_secure_password");
-  // password.value = "123";
-  print(password.getPassword());
+  print(password);
 }

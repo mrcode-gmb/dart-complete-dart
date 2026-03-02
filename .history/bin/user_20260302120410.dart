@@ -66,6 +66,6 @@ class Password{
   const Password(this.value);
 
   String getPassword(){
-    return this.value;
+    return value;
   }
 }

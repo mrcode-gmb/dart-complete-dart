@@ -57,11 +57,6 @@ void main(){
 
   final map = {"id": 3, "name": "MrCode"};
   final mrCode = User.fromJson(map);
-  print(mrCode);
+  print(mrCode.id);
   // vicki._name = 'Nefarious Hacker';
-
-  // setting password 
-  const password = Password("my_secure_password");
-  // password.value = "123";
-  print(password.getPassword());
 }

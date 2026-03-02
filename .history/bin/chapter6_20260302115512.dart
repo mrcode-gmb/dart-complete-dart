@@ -61,7 +61,5 @@ void main(){
   // vicki._name = 'Nefarious Hacker';
 
   // setting password 
-  const password = Password("my_secure_password");
-  // password.value = "123";
-  print(password.getPassword());
+  final password = "my_secure_password";
 }

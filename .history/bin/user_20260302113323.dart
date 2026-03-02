@@ -39,14 +39,7 @@ class User {
     return User(id: 0, name: 'Ray');
   }
 
-  factory User.fromJsons(Map<String, Object>json){
-    final userId = json['id'] as int;
-    final userName = json['name'] as String;
-    return User(id: userId, name: userName);
-  }
-  // or use this method 
-
-  User.fromJson(Map<String, Object>json) : _id = json['id'] as int, _name = json['name'] as String;
+  factory User.from
 }
 
 // void main() {}
@@ -60,12 +53,3 @@ class User {
 //   final vicki = User(id: 24, name: 'Vicki');
 //   vicki._name = 'Nefarious Hacker';
 // }
-
-class Password{
-  final String value;
-  const Password(this.value);
-
-  String getPassword(){
-    return this.value;
-  }
-}
