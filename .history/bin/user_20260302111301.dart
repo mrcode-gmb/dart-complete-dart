@@ -7,17 +7,19 @@ class User {
   // }
 
   // short term constructor method
-  const User({int id = 0, String name = "Anonymous"})
+  const User({int id, String name})
     : assert(id >= 0),
       _id = id,
-      _name = name;
+      _name = name {
+    print("User created with id: $_id and name: $_name");
+  }
   // Forwarding constructors
   const User.anonymous() : _id = 0, _name = 'anonymous';
 
   // Optional and named parameters
   // Making properties immutable
-  final int _id;
-  final String _name;
+  int _id;
+  String _name;
 
   // Private variables
 
