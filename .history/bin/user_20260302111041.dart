@@ -7,7 +7,7 @@ class User {
   // }
 
   // short term constructor method
-  const User({int id, String name})
+  const User({int id = 0, String name = 'anonymous'})
     : assert(id >= 0),
       _id = id,
       _name = name {
