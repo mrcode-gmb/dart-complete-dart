@@ -16,8 +16,6 @@ class User {
 
   // Optional and named parameters
   // Making properties immutable
-  int get id => _id;
-  String get name => _name;
   final int _id;
   final String _name;
 
@@ -70,11 +68,4 @@ class Password{
   String getPassword(){
     return this.value;
   }
-}
-
-// Setters
-class Email{
-  var _address = "";
-  String get value => _address;
-  set value(String address)=> _address = address;
 }

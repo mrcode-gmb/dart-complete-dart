@@ -24,10 +24,4 @@ void main(){
   const password = Password("my_secure_password");
   // password.value = "123";
   print(password.getPassword());
-
-  // use setter method 
-  final email = Email();
-  email.value = "john@gmail.com";
-  final emailString = email.value;
-  print(emailString);
 }

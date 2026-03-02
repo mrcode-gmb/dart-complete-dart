@@ -27,7 +27,5 @@ void main(){
 
   // use setter method 
   final email = Email();
-  email.value = "john@gmail.com";
-  final emailString = email.value;
-  print(emailString);
+  final myEmail = email.value = "john@gmail.com";
 }

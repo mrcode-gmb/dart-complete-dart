@@ -29,5 +29,5 @@ void main(){
   final email = Email();
   email.value = "john@gmail.com";
   final emailString = email.value;
-  print(emailString);
+  prin
 }

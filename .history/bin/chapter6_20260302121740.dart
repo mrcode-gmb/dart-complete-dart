@@ -17,17 +17,11 @@ void main(){
 
   final map = {"id": 3, "name": "MrCode"};
   final mrCode = User.fromJson(map);
-  print(mrCode.id);
+  print(mrCode);
   // vicki._name = 'Nefarious Hacker';
 
   // setting password 
   const password = Password("my_secure_password");
   // password.value = "123";
   print(password.getPassword());
-
-  // use setter method 
-  final email = Email();
-  email.value = "john@gmail.com";
-  final emailString = email.value;
-  print(emailString);
 }
