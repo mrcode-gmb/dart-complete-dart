@@ -87,15 +87,6 @@ class SomeClass{
     print("This is a static method");
   }
 
-  static const int myConstant = 42;
-  static const _anonymousId = 20;
-  static const _anonymousName = 'anonymous';
+  static const int 
 } 
 
-
-// Singleton pattern
-
-class MySingleton{
-  MySingleton._();
-  static final MySingleton instance = MySingleton._();
-}

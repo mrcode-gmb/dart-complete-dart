@@ -37,5 +37,4 @@ void main(){
 
   // access MySingleton here 
   final singleton = MySingleton.instance;
-  print(singleton)
 }

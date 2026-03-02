@@ -35,7 +35,5 @@ void main(){
   SomeClass.myMethod();
   print(SomeClass.myConstant);
 
-  // access MySingleton here 
-  final singleton = MySingleton.instance;
-  print(singleton)
+  access 
 }

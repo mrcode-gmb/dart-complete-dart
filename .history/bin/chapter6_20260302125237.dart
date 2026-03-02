@@ -30,12 +30,7 @@ void main(){
   email.value = "john@gmail.com";
   final emailString = email.value;
   print(emailString);
-
-  print(SomeClass.myProperty);
-  SomeClass.myMethod();
-  print(SomeClass.myConstant);
-
-  // access MySingleton here 
-  final singleton = MySingleton.instance;
-  print(singleton)
 }
+
+
+// static pro 

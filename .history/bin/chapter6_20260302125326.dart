@@ -32,10 +32,13 @@ void main(){
   print(emailString);
 
   print(SomeClass.myProperty);
-  SomeClass.myMethod();
-  print(SomeClass.myConstant);
-
-  // access MySingleton here 
-  final singleton = MySingleton.instance;
-  print(singleton)
 }
+
+
+// static properties and methods
+class SomeClass{
+  static int myProperty = 10;
+  static void myMethod(){
+    print("This is a static method");
+  }
+} 

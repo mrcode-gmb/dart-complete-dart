@@ -33,9 +33,5 @@ void main(){
 
   print(SomeClass.myProperty);
   SomeClass.myMethod();
-  print(SomeClass.myConstant);
-
-  // access MySingleton here 
-  final singleton = MySingleton.instance;
-  print(singleton)
+  print(SomeClass.myConstant)
 }
