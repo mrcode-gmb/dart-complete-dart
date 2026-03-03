@@ -98,5 +98,5 @@ class SomeClass{
 class MySingleton{
   MySingleton._();
   static final MySingleton _instance = MySingleton._();
-  factory MySingleton() => _instance;
+  factory MySingleton() => _instance
 }
