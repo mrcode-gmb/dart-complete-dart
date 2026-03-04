@@ -16,8 +16,8 @@ void main(){
   print(vicki);
 
   final map = {"id": 3, "name": "MrCode"};
-  final mrCode = User.fromJson(map);
-  print(mrCode);
+  final mrCode = User.fromJsoning(map);
+  print(mrCode.id);
   // vicki._name = 'Nefarious Hacker';
 
   // setting password 
@@ -38,6 +38,6 @@ void main(){
   // access MySingleton here 
   final singleton = MySingleton();
 
-  
+
   print(singleton);
 }

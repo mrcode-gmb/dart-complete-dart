@@ -41,7 +41,7 @@ class User {
     return User(id: 0, name: 'Ray');
   }
 
-  factory User.fromJsons(Map<String, Object>json){
+  static User.fromJsons(Map<String, Object>json){
     final userId = json['id'] as int;
     final userName = json['name'] as String;
     return User(id: userId, name: userName);
@@ -49,8 +49,6 @@ class User {
   // or use this method 
 
   User.fromJson(Map<String, Object>json) : _id = json['id'] as int, _name = json['name'] as String;
-
-  
 }
 
 // void main() {}

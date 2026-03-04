@@ -50,7 +50,10 @@ class User {
 
   User.fromJson(Map<String, Object>json) : _id = json['id'] as int, _name = json['name'] as String;
 
-  
+  static fromJsoning(Map<String, Object>json){
+    final userId = json['id'] as int;
+    final userName = json['name'] as String;
+    return User(id: userId, name: userName);
 }
 
 // void main() {}

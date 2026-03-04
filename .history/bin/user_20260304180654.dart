@@ -49,8 +49,6 @@ class User {
   // or use this method 
 
   User.fromJson(Map<String, Object>json) : _id = json['id'] as int, _name = json['name'] as String;
-
-  
 }
 
 // void main() {}
