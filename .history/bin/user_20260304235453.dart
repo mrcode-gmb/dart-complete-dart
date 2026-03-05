@@ -33,7 +33,7 @@ class User {
   }
 
   @override
-  static User fromJsonInc(Map<String, Object> json) {
+  static User fromJson(Map<String, Object> json) {
     final userId = json['id'] as int;
     final userName = json['name'] as String;
     return User(id: userId, name: userName);

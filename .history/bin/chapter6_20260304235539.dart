@@ -17,9 +17,7 @@ void main() {
   final mrCode = User.fromJson(map);
   print(mrCode);
 
-  final myDetails = {"id": 21, "name": "ABK"};
-  final mapRecord = User.fromJsonInc(myDetails);
-  print(mapRecord);
+  final myDetails = {""}
   // vicki._name = 'Nefarious Hacker';
 
   // setting password

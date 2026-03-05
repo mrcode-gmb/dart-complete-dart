@@ -32,30 +32,26 @@ class User {
     return "User(id: $_id, name: $_name)";
   }
 
-  @override
-  static User fromJsonInc(Map<String, Object> json) {
-    final userId = json['id'] as int;
-    final userName = json['name'] as String;
-    return User(id: userId, name: userName);
-  }
+  static toJsoning
   // Why aren’t the private properties private?
+
 
   // Factory constructors
 
-  factory User.ray() {
+  factory User.ray(){
     return User(id: 0, name: 'Ray');
   }
 
-  factory User.fromJsons(Map<String, Object> json) {
+  factory User.fromJsons(Map<String, Object>json){
     final userId = json['id'] as int;
     final userName = json['name'] as String;
     return User(id: userId, name: userName);
   }
-  // or use this method
+  // or use this method 
 
-  User.fromJson(Map<String, Object> json)
-    : _id = json['id'] as int,
-      _name = json['name'] as String;
+  User.fromJson(Map<String, Object>json) : _id = json['id'] as int, _name = json['name'] as String;
+
+  
 }
 
 // void main() {}
@@ -70,37 +66,39 @@ class User {
 //   vicki._name = 'Nefarious Hacker';
 // }
 
-class Password {
+class Password{
   final String value;
   const Password(this.value);
 
-  String getPassword() {
+  String getPassword(){
     return this.value;
   }
 }
 
 // Setters
-class Email {
+class Email{
   var _address = "";
   String get value => _address;
-  set value(String address) => _address = address;
+  set value(String address)=> _address = address;
 }
 
+
 // static properties and methods
-class SomeClass {
+class SomeClass{
   static int myProperty = 10;
-  static void myMethod() {
+  static void myMethod(){
     print("This is a static method");
   }
 
   static const int myConstant = 42;
   static const _anonymousId = 20;
   static const _anonymousName = 'anonymous';
-}
+} 
+
 
 // Singleton pattern
 
-class MySingleton {
+class MySingleton{
   MySingleton._();
   static final MySingleton _instance = MySingleton._();
   factory MySingleton() => _instance;
